@@ -1,0 +1,773 @@
+/*
+ * Globals
+ */
+
+body {
+  color: #555;
+  font-family:"adobe-jenson-pro";
+  font-style:normal;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: "franklin-gothic-urw";
+  font-weight: bold;
+  color: #333;
+}
+
+h3+p{
+    padding-bottom:15px;
+}
+
+a{
+	color:#999;
+}
+
+a:hover{
+	color:black;
+}
+
+blockquote{
+    font-family: "franklin-gothic-urw";
+    font-weight:normal;
+}
+
+/*
+ * Clocks in Menu
+ */
+.navmenu-default{
+	font-family:"franklin-gothic-urw";
+	font-style:normal;
+	background-color:white;
+	color:white;
+	border-color:#8A8A8A;
+	-webkit-box-shadow: 7px 1px 19px -2px rgba(0,0,0,0.4);
+	-moz-box-shadow: 7px 1px 19px -2px rgba(0,0,0,0.4);
+	-o-box-shadow: 7px 1px 19px -2px rgba(0,0,0,0.4);
+	-ms-box-shadow: 7px 1px 19px -2px rgba(0,0,0,0.4);
+	box-shadow: 7px 1px 19px -2px rgba(0,0,0,0.4);
+}
+
+.nav>li:hover{
+	background-color:#fff317;
+}
+
+#Norwich_z716, #St_Louis_z123{
+	font-size:45px;
+	font-weight:bold;
+	color:white;
+}
+
+#UEAbio{
+	padding:15px;
+	font-family:"adobe-jenson-pro";
+	font-style:normal;
+}
+
+#SkypeButton_Call_tsanguinette_1_paraElement{
+	margin-top:-30px;
+}
+
+#SkypeButton_Call_tsanguinette_1_paraElement a img{
+	margin:0 !important;
+}
+
+.sidebar-module-inset {
+background-color: black !important;
+}
+
+.sidebar-module-inset a{
+	color:white;
+}
+
+.sidebar-module-inset a:hover{
+	text-decoration:none;
+}
+
+.white{
+	color:white;
+	border-bottom:1px white solid;
+	padding-bottom:15px;
+	
+}
+
+.subtext{
+	color:white;
+	font-family:"franklin-gothic-urw";
+    font-style:normal;
+    font-weight:bold;
+}
+
+/*
+*	Jumbotron
+*/
+.jumbotron{
+	background-image:url('../images/norwich1.jpg');
+	background-size: cover;
+	height:100%;
+	margin-bottom:0;
+}
+
+.jumbotron h1{
+	font-weight:900;
+	line-height:80px;
+}
+
+.jumbotron h1, .jumbotron p{
+	color:#fff317;
+	text-align:center;
+}
+
+.jumbotron img{
+	width:513px;
+	margin:0 auto;
+	padding-top:120px;
+}
+
+.navbar-default .navbar-toggle {
+	border-color:black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color:black;
+}
+
+.navbar-toggle:hover, .navbar-toggle:focus{
+	background-color:#fff317 !important;
+}
+
+.month{
+    padding-left:4px;
+    padding-top:40px;
+}
+
+.pagination {
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	-ms-border-radius:0;
+	-o-border-radius:0;
+    border-radius:0;
+}
+
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+	border-bottom-left-radius:0;
+	border-top-left-radius:0;
+}
+
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.pagination>li>a, .pagination>li>span{
+	color:#333;
+	border-color:#333;
+}
+
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus{
+	color:black;
+	border-color:#333;
+}
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
+	color:#333;
+	background-color:#fff317;
+	border-color:#333;
+}
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+
+/*
+ * Masthead for nav
+ */
+
+.blog-masthead {
+  background-color: #428bca;
+  box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+/* Nav links */
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.blog-nav .active {
+  color: #fff;
+}
+.blog-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right:  5px solid transparent;
+  border-bottom: 5px solid;
+  border-left:   5px solid transparent;
+}
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+  padding-bottom: 20px;
+  vertical-align:middle;
+}
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 20px;
+  color: #999;
+}
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+  border-top: 1px solid black;
+  padding-top: 25px;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+}
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 60px;
+}
+
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+.bg-color.green {
+	background: #fff317;
+	color: black;
+	padding:45px 0;
+	overflow:auto;
+}
+
+.bg-color.green h5, .bg-color.green p{
+	text-align: center;
+	color:black;
+}
+
+.btn{
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	-o-border-radius:0;
+	-ms-border-radius:0;
+    border-radius:0;
+}
+
+.bg-color.green .btn{
+	border: 1px solid black;
+	background: black;
+	color: white;
+}
+
+.bg-color.green .btn:hover{
+	border: 1px solid #adadad;
+	background: #adadad;
+	color: white;
+}
+
+.bg-color.green a{
+	color:black;
+}
+
+#listfloat li{
+	float:left !important;
+	padding-right:15px;
+}
+
+#listfloat li:last-of-type{
+	padding-right:0;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+	overflow:auto;
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+
+.sidebar-module-inset {
+	padding: 15px;
+	background-color: #f5f5f5;
+	-webkit-border-radius: 0px;
+	-ms-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.padding{
+	padding:0;
+}
+
+.header {
+  background-color:#333;
+  width:100%;
+}
+
+.main {
+  width:100%;
+  position:relative;
+  background-color:#fff;
+}
+
+/* the wrapper element that will become the outer circle */
+.arrow-wrap {
+  position:absolute;
+  z-index:1;
+  left:50%;
+  top:-5em;
+  margin-left:-5em;
+  background:white;
+  width:10em;
+  height:10em;
+  padding:4em 2em;
+  border-radius:50%;
+  font-size:0.5em;
+  display:block;
+  -moz-box-shadow:0 0 10px 0 #333;
+  -webkit-box-shadow:0 0 10px 0 #333;
+  -o-box-shadow:0 0 10px 0 #333;
+  -ms-box-shadow:0 0 10px 0 #333;
+  box-shadow:0 0 10px 0 #333;
+  
+  -moz-transform:rotate(360deg);
+  -moz-animation: animation 2.8s 0.4s;
+  -moz-animation-delay: 1.5s;
+  -moz-animation-iteration-count: 10;
+  -moz-animation-timing-function: ease-in-out;
+  -o-transform:rotate(360deg);
+  -o-animation: animation 2.8s 0.4s;
+  -o-animation-delay: 1.5s;
+  -o-animation-iteration-count: 10;
+  -o-animation-timing-function: ease-in-out;
+  -ms-transform:rotate(360deg);
+  -ms-animation: animation 2.8s 0.4s;
+  -ms-animation-delay: 1.5s;
+  -ms-animation-iteration-count: 10;
+  -ms-animation-timing-function: ease-in-out;
+ 	-webkit-transform:rotate(360deg);
+	-webkit-animation: animation 2.8s 0.4s;
+	-webkit-animation-delay: 1.5s;
+	-webkit-animation-iteration-count: 10;
+	-webkit-animation-timing-function: ease-in-out;
+    
+    transform:rotate(360deg);
+    animation: animation 2.8s 0.4s;
+    animation-delay: 1.5s;
+    animation-iteration-count: 10;
+    animation-timing-function: ease-in-out;
+}
+
+/* a triangle to make the main part of the arrow. Adjust the border-color to fit your needs */
+.arrow {
+  float:left;
+  position:relative;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: black white white white;
+  -webkit-transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  transform:rotate(360deg);
+}
+
+/* a pseudo element arrow placed on top of the other one with the same color as the wrapper */
+.arrow:after {
+  content:'';
+  position:absolute;
+  top:-3.2em;
+  left:-3em;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: #111 transparent transparent transparent;
+  -webkit-transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  transform:rotate(360deg);
+}
+ 
+ @-webkit-keyframes animation {
+    0% { top:-5em; }
+	50% { top:-30em; }
+    100% { top:-5em; }
+  }
+  
+  @-moz-keyframes animation {
+     0% { top:-5em; }
+ 	50% { top:-30em; }
+     100% { top:-5em; }
+   }
+
+   @-o-keyframes animation {
+      0% { top:-5em; }
+  	50% { top:-30em; }
+      100% { top:-5em; }
+    }
+	
+    @-ms-keyframes animation {
+       0% { top:-5em; }
+   	50% { top:-30em; }
+       100% { top:-5em; }
+     }
+     
+     @keyframes animation {
+    0% { top:-5em; }
+    50% { top:-30em; }
+    100% { top:-5em; }
+    }
+	 
+	 iframe.col-xs-12 {
+	 border: none;
+	 padding:0;
+	 margin:0;
+ }
+ 
+ p.overflow{
+	 overflow:auto;
+ }
+ 
+ a.yellowLink{
+ 	color: rgb(85, 85, 85);
+ }
+ 
+ .form-control {
+ height: 34px;
+ padding: 6px 12px;
+ font-size: 14px;
+ color: #555;
+ background-color: #fff;
+ background-image: none;
+ border:none;
+ -webkit-border-radius:0;
+ -moz-border-radius:0;
+ -o-border-radius:0;
+ -ms-border-radius:0;
+ -webkit-box-shadow: none;
+ -moz-box-shadow: none;
+ -ms-box-shadow: none;
+ -o-box-shadow: none;
+ box-shadow: none;
+ border-radius:0;
+ } 
+ 
+ .form-control:focus {
+ border-color: green;
+ -o-box-shadow: none;
+ -ms-box-shadow: none;
+ -webkit-box-shadow: 0 6px 5px -2px rgba(0,0,0,0.36);
+ -moz-box-shadow: 0 6px 5px -2px rgba(0,0,0,0.36);
+ box-shadow: 0 6px 5px -2px rgba(0,0,0,0.36);
+ }
+ 
+ .sidebar-module-inset, #skypeWaypoint, #socialWaypoint{
+  opacity:0;
+ }
+ 
+ .fade{
+  opacity:1 !important;
+  -webkit-transition:opacity ease-in 1200ms;
+  transition:opacity ease-in 1200ms;
+ }
+ 
+ ul.pagination{
+ 	transform: translate(0,28px);
+	-webkit-transform: translate(0,28px);
+ 	opacity:.2;
+ }
+
+ .translateOpacity{
+ 	transform: translate(0,0);
+	-webkit-transform: translate(0,0) !important;
+ 	opacity:1 !important;
+ 	transition:all ease-in 1200ms;
+ 	-webkit-transition:all ease-in 1200ms;
+ }
+ 
+/*
+ * Media Queries
+ */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+	.jumbotron h1{
+		font-size:58px;
+		line-height:48px;
+		padding-top:10px;
+	}
+	
+	.jumbotron p{
+		font-size:16px;
+	}
+	
+	.jumbotron img{
+		padding-top:40px;
+	}
+	
+	.arrow-wrap{
+		-webkit-animation-iteration-count: 10;
+		-moz-animation-iteration-count: 10;
+		-o-animation-iteration-count: 10;
+		-ms-animation-iteration-count: 10;
+	}
+}
+
+@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
+	.jumbotron{
+		background-image:url('../images/norwich-iphone-portrait.jpg');
+		}
+		
+		.bg-color.green {
+			padding:0;
+			padding-top:45px;
+			margin-bottom:7px;
+		}
+		
+		.bg-color.green .btn{
+			min-height: 45px;
+		}
+}
+
+@media (max-width: 595px){
+.jumbotron{
+	background-image:url('../images/norwich-mobile-portrait.jpg');
+	}
+	
+	#Norwich_z716, #St_Louis_z123{
+		display:block;
+	}
+	
+	.jumbotron h1{
+		font-size:68px;
+		line-height:60px;
+	}
+	
+	.btn{
+		width:100%;
+	}
+	.bg-color.green {
+		padding:0;
+		padding-top:45px;
+		margin-bottom:7px;
+	}
+	
+	.bg-color.green .btn{
+		min-height: 45px;
+	}
+	
+	.sidebar-module {
+	padding: 7px 15px;
+	margin: 0 -15px 0px;
+	overflow:auto;
+	}
+	
+	.sidebar-module:nth-child(2){
+		padding-top:30px;
+	}
+	
+	.sidebar-module:last-of-type{
+		padding-bottom:30px;
+	}
+	
+    @-webkit-keyframes mobileanimation {
+        0% { top:-5em; }
+        50% { top:-18em; }
+        100% { top:-5em; }
+      }
+  
+     @-moz-keyframes mobileanimation {
+        0% { top:-5em; }
+    	50% { top:-18em; }
+        100% { top:-5em; }
+      }
+
+      @-o-keyframes mobileanimation {
+         0% { top:-5em; }
+     	50% { top:-18em; }
+         100% { top:-5em; }
+       }
+	
+       @-ms-keyframes mobileanimation {
+          0% { top:-5em; }
+      	50% { top:-18em; }
+          100% { top:-5em; }
+        }
+        
+        @keyframes mobileanimation {
+          0% { top:-5em; }
+          50% { top:-18em; }
+          100% { top:-5em; }
+        }
+		
+		.arrow-wrap{
+			animation: mobileanimation 2.8s 0.4s;
+			animation-delay: 1.5s;
+			animation-iteration-count: 10;
+			animation-timing-function: ease-in-out;
+			-moz-animation: mobileanimation 2.8s 0.4s;
+			-moz-animation-delay: 1.5s;
+			-moz-animation-iteration-count: 10;
+			-moz-animation-timing-function: ease-in-out;
+			-webkit-animation: mobileanimation 2.8s 0.4s;
+			-webkit-animation-delay: 1.5s;
+			-webkit-animation-iteration-count: 10;
+			-webkit-animation-timing-function: ease-in-out;
+			-o-animation: mobileanimation 2.8s 0.4s;
+			-o-animation-delay: 1.5s;
+			-o-animation-iteration-count: 10;
+			-o-animation-timing-function: ease-in-out;
+			-ms-animation: mobileanimation 2.8s 0.4s;
+			-ms-animation-delay: 1.5s;
+			-ms-animation-iteration-count: 10;
+			-ms-animation-timing-function: ease-in-out;
+		}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	.jumbotron{
+		background-image:url('../images/norwich-ipad-landscape.jpg');
+		}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+	.jumbotron{
+		background-image:url('../images/norwich-ipad-portrait.jpg');
+		}
+		
+		#Norwich_z716, #St_Louis_z123 {
+		font-size: 37px;
+		}
+}
+
+@media (max-width: 991px){
+	.navbar-default {
+	background-color: black;
+	border-color: black;
+	}
+	
+	.navbar-default .navbar-toggle {
+	border-color: white
+	}
+	
+	.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+	}
+}
+
+@media (max-width: 767px){
+	.btn{
+		width:100%;
+	}
+	
+	.bg-color.green {
+		padding:0;
+		padding-top:45px;
+		margin-bottom:7px;
+	}
+}
+	
+@media (min-width: 1500px) and (max-width: 2000px) {	
+	.jumbotron h1{
+		font-size:120px;
+	}
+	
+	.jumbotron p{
+		font-size:32px;
+	}
+		}
+		
+.blog-post iframe{
+	padding-bottom: 25px;
+}

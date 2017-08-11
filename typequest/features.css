@@ -1,0 +1,349 @@
+#magic h2{
+	color:#3d3d3d;
+	text-align:left;
+	border-bottom:1px solid #6CE867;
+	margin-bottom:5px;
+	color:#6CE867;
+}
+
+.features h6{
+	position:absolute;
+	top:100px;
+	left:200px;
+	z-index:10;
+}
+
+/*==HEADER==*/
+header{
+	height:500px;
+	background-color: #3d3d3d;
+	background-image:url('images/new3.jpg');
+	background-position:0;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#name{
+	width:455px;
+	margin:0 auto;
+	padding-top:203px;
+}
+
+#name h1{
+	color:#6CE867;
+	font-size:107px;
+	line-height:85px;
+}
+
+#main{
+	height: 4150px;
+	background-color: white;
+}
+
+#content{
+	width:860px;
+	margin:0 auto;
+	padding-top:30px;
+	overflow:auto;
+	border-top:1px solid #3d3d3d;
+}
+
+.content{
+	width:860px;
+	margin:0 auto;
+}
+
+#content p{
+	width:409px;
+	float:left;
+	padding-right:40px;
+	margin-top:0;
+}
+
+#content p:last-of-type{
+	padding-right:0;
+}
+
+#center{
+	margin:0 auto;
+	width:613px;
+	overflow:visible;
+}
+
+#center.one{
+	width:645px;
+}
+
+#center.two{
+	width:599px;
+}
+
+#center.three{
+	width:506px;
+}
+
+#center.four{
+	width:645px;
+}
+
+#noactive{
+	float:left;
+	padding-right:25px;
+	-moz-font-feature-settings:"liga" 0, "dlig" 0; 
+	-moz-font-feature-settings:"liga=0, dlig=0"; 
+	-ms-font-feature-settings:"liga" 0, "dlig" 0; 
+	-o-font-feature-settings:"liga" 0, "dlig" 0; 
+	-webkit-font-feature-settings:"liga" 0, "dlig" 0; 
+	font-feature-settings:"liga" 0, "dlig" 0;
+}
+
+#active{
+	float:left;
+	-moz-font-feature-settings:"liga" 1, "dlig" 1; 
+	-moz-font-feature-settings:"liga=1, dlig=1"; 
+	-ms-font-feature-settings:"liga" 1, "dlig" 1; 
+	-o-font-feature-settings:"liga" 1, "dlig" 1; 
+	-webkit-font-feature-settings:"liga" 1, "dlig" 1; 
+	font-feature-settings:"liga" 1, "dlig" 1;
+}
+
+#magic{
+	width:860px;
+	margin:0 auto;
+	overflow:auto;
+	margin-top:45px;
+}
+
+#magic:first-of-type{
+	margin-top:0;
+}
+
+#links{
+	float:left;
+	width:140px;
+	height:100px;
+	margin-right:100px;
+}
+
+#links ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#links ul li{
+	text-align:right;
+	padding-bottom:0;
+	font-size:14px;
+}
+
+#links ul li a{
+	color:#3d3d3d;
+	text-decoration:none;
+	line-height:22px;
+}
+
+#links ul li a:hover{
+	color:#6CE867;
+}
+
+#code{
+	width:620px;
+	height:220px;
+	background-color:#3d3d3d;
+	float:left;
+	color:white;
+}
+
+#code.multiple{
+	height:440px;
+}
+
+pre{
+	padding-top:73px;
+	margin:0 auto;
+	width:380px;
+}
+
+p.frac{
+	padding-left:240px;
+	margin-top:20px;
+	font-size:45px;
+	color:#6CE867;
+}
+
+p.numbers{
+	padding-left:240px;
+	margin-top:20px;
+	font-size:45px;
+	color:#6CE867;
+}
+
+p.caps{
+	padding-left:240px;
+	margin-top:20px;
+	font-size:45px;
+	color:#6CE867;
+}
+
+p.scripts{
+	padding-left:240px;
+	margin-top:20px;
+	font-size:45px;
+	color:#6CE867;
+}
+
+p.swash{
+	padding-left:240px;
+	margin-top:20px;
+	font-size:45px;
+	color:#6CE867;
+	font-family:"bello-pro";
+	font-style:normal;
+	font-weight:400;
+}
+
+footer.articles{
+	padding-top:50px;
+	height:225px;
+	width:100%;
+	background-color:#3d3d3d;
+}
+
+footer ul li a{
+	color:white;
+}
+
+footer ul li a:hover{
+	color:#6CE867;
+}
+
+.info p{
+	color:white;
+}
+
+.list.info a{
+	text-decoration:none;
+	color:white;
+}
+
+button.switch{
+	color: white;
+	width: 110px;
+	height: 35px;
+	border: none;
+	margin: 0;
+	padding: 0;
+	background-color: #6CE867;
+	cursor:pointer;
+}
+
+button:focus{
+	outline-color:transparent;
+	outline-width:0;
+	outline-style:none;
+}
+
+button:hover{
+	color:white;
+	background-color:#3d3d3d;
+}
+
+.fracon { -moz-font-feature-settings: "frac" 1;
+-moz-font-feature-settings: "frac=1";
+-ms-font-feature-settings: "frac" 1;
+-o-font-feature-settings: "frac" 1;
+-webkit-font-feature-settings: "frac" 1;
+font-feature-settings: "frac" 1; }
+
+.fracoff { -moz-font-feature-settings: "frac" 0;
+-moz-font-feature-settings: "frac=0";
+-ms-font-feature-settings: "frac" 0;
+-o-font-feature-settings: "frac" 0;
+-webkit-font-feature-settings: "frac" 0;
+font-feature-settings: "frac" 0; }
+
+.onumon { -moz-font-feature-settings: "onum" 1;
+-moz-font-feature-settings: "onum=1";
+-ms-font-feature-settings: "onum" 1;
+-o-font-feature-settings: "onum" 1;
+-webkit-font-feature-settings: "onum" 1;
+font-feature-settings: "onum" 1; }
+
+.lnumon { -moz-font-feature-settings: "lnum" 1;
+-moz-font-feature-settings: "lnum=1";
+-ms-font-feature-settings: "lnum" 1;
+-o-font-feature-settings: "lnum" 1;
+-webkit-font-feature-settings: "lnum" 1;
+font-feature-settings: "lnum" 1; }
+
+.smcpon { -moz-font-feature-settings: "smcp" 1;
+-moz-font-feature-settings: "smcp=1";
+-ms-font-feature-settings: "smcp" 1;
+-o-font-feature-settings: "smcp" 1;
+-webkit-font-feature-settings: "smcp" 1;
+font-feature-settings: "smcp" 1; }
+
+.smcpoff { -moz-font-feature-settings: "smcp" 0;
+-moz-font-feature-settings: "smcp=0";
+-ms-font-feature-settings: "smcp" 0;
+-o-font-feature-settings: "smcp" 0;
+-webkit-font-feature-settings: "smcp" 0;
+font-feature-settings: "smcp" 0; }
+
+.subson { -moz-font-feature-settings: "subs" 1;
+-moz-font-feature-settings: "subs=1";
+-ms-font-feature-settings: "subs" 1;
+-o-font-feature-settings: "subs" 1;
+-webkit-font-feature-settings: "subs" 1;
+font-feature-settings: "subs" 1; }
+
+.subsoff { -moz-font-feature-settings: "subs" 0;
+-moz-font-feature-settings: "subs=0";
+-ms-font-feature-settings: "subs" 0;
+-o-font-feature-settings: "subs" 0;
+-webkit-font-feature-settings: "subs" 0;
+font-feature-settings: "subs" 0; }
+
+.supson { -moz-font-feature-settings: "sups" 1;
+-moz-font-feature-settings: "sups=1";
+-ms-font-feature-settings: "sups" 1;
+-o-font-feature-settings: "sups" 1;
+-webkit-font-feature-settings: "sups" 1;
+font-feature-settings: "sups" 1; }
+
+.supsoff { -moz-font-feature-settings: "sups" 0;
+-moz-font-feature-settings: "sups=0";
+-ms-font-feature-settings: "sups" 0;
+-o-font-feature-settings: "sups" 0;
+-webkit-font-feature-settings: "sups" 0;
+font-feature-settings: "sups" 0; }
+
+.swshon { -moz-font-feature-settings:"swsh" 1; 
+-moz-font-feature-settings:"swsh=1"; 
+-ms-font-feature-settings:"swsh" 1; 
+-o-font-feature-settings:"swsh" 1; 
+-webkit-font-feature-settings:"swsh" 1; 
+font-feature-settings:"swsh" 1;
+webkit-transition: all 600ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition:         all 600ms cubic-bezier(0.47, 0, 0.745, 0.715);}
+
+.swshoff { -moz-font-feature-settings:"swsh" 0; 
+-moz-font-feature-settings:"swsh=0"; 
+-ms-font-feature-settings:"swsh" 0; 
+-o-font-feature-settings:"swsh" 0; 
+-webkit-font-feature-settings:"swsh" 0; 
+font-feature-settings:"swsh" 0;
+-webkit-transition: all 600ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition:         all 600ms cubic-bezier(0.39, 0.575, 0.565, 1); }
+
+/*==iPad MEDIA QUERIES==*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+	#something{
+		text-align:;
+	}
+}
+
+
+
+

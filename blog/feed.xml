@@ -6,9 +6,60 @@
 </description>
     <link>http://eyeinthesky.local:5757/blog/</link>
     <atom:link href="http://eyeinthesky.local:5757/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Dec 2016 13:00:19 -0600</pubDate>
-    <lastBuildDate>Sat, 17 Dec 2016 13:00:19 -0600</lastBuildDate>
+    <pubDate>Thu, 05 Oct 2017 19:11:25 -0500</pubDate>
+    <lastBuildDate>Thu, 05 Oct 2017 19:11:25 -0500</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>United Airlines App Prototype</title>
+        <description>&lt;h3 class=&quot;large-padding-bottom-3x medium-padding-bottom-2x small-padding-bottom-3x&quot;&gt;Problem:&lt;/h3&gt;
+&lt;div class=&quot;large-padding-bottom-16x medium-padding-bottom-12x small-padding-bottom-15x&quot;&gt;
+&lt;p&gt;Users become frustrated during the boarding process. Often times customers are not in gate vicinity to hear boarding announcement and/or might become confused with announcements if the boarding gate is near another boarding gate already in progress. The current United app doesn’t provide easy access to boarding documents and gate directions.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;large-padding-bottom-16x medium-padding-bottom-12x small-padding-bottom-15x&quot;&gt;
+	&lt;img src=&quot;../../../../../img/unitedapp.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;large-padding-bottom-16x medium-padding-bottom-12x small-padding-bottom-15x&quot;&gt;
+&lt;h3 class=&quot;large-padding-bottom-3x medium-padding-bottom-2x small-padding-bottom-3x&quot;&gt;Solution:&lt;/h3&gt;
+&lt;p class=&quot;large-padding-bottom-3x medium-padding-bottom-2x small-padding-bottom-3x&quot;&gt;Reduce frustration and friction in the boarding process by restructuring the United Airlines app content so important information is easy to access, by making the app more life-like in its interaction with the user, and by creating a push notification with easy access to boarding passes/directions.&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;h3&gt;Restructuring Content&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;I focused on 4 main areas of quick access: Check-In, Book A Flight, Flight Status, and Entertainment. These categories seemed to be the most important areas that generate revenue but are also functional in the sense that users interact with them frequently. In the prototype you’ll see a grid of these categories on the dashboard screen so that they are initially shown and are easy accessible through the tab bar.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    
+    &lt;li&gt;&lt;h3&gt;Interaction&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;The current United app is fairly static and doesn’t feel life-like in the sense that the interactions don’t seem conversational and fluid much as a contemporary app would be. The way elements in a product engage the user can be a subtle but key feature in both guiding your customer and engaging them. You’ll see the addition of motion on the login screen with the United logo transitioning from the main focus all the way to a small detail on the main dashboard header.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    
+    &lt;li&gt;&lt;h3&gt;Push Notifications&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;To further address some of the issues surrounding the boarding process, a push notification was added when the customer’s group starts to board. The iOS native notification allows the user to easily access their boarding pass wether they are in another app or have their iPhone locked. Additionally, if the customer is away from the gate, they can easily get directions from their current location within the airport terminal to the boarding gate with a turn by turn map.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;large-padding-bottom-16x medium-padding-bottom-12x small-padding-bottom-15x&quot;&gt;
+&lt;a class=&quot;textlink&quot; href=&quot;../../../../../assets/United.origami&quot;&gt;Download Prototype&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f_DmZUw8u38?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 04 Oct 2017 20:41:00 -0500</pubDate>
+        <link>http://eyeinthesky.local:5757/blog/2017/10/04/united-prototype/</link>
+        <guid isPermaLink="true">http://eyeinthesky.local:5757/blog/2017/10/04/united-prototype/</guid>
+        
+        
+      </item>
     
       <item>
         <title>New Website!</title>

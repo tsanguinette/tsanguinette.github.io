@@ -6,8 +6,8 @@
 </description>
     <link>http://eyeinthesky.local:5757/blog/</link>
     <atom:link href="http://eyeinthesky.local:5757/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 Oct 2017 14:22:07 -0500</pubDate>
-    <lastBuildDate>Tue, 31 Oct 2017 14:22:07 -0500</lastBuildDate>
+    <pubDate>Wed, 01 Nov 2017 08:04:56 -0500</pubDate>
+    <lastBuildDate>Wed, 01 Nov 2017 08:04:56 -0500</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -18,12 +18,14 @@
 &lt;/div&gt;
 
 &lt;div class=&quot;large-padding-bottom-16x medium-padding-bottom-12x small-padding-bottom-15x&quot;&gt;
-	&lt;img src=&quot;../../../../../img/unitedapp.jpg&quot; /&gt;
+	&lt;img src=&quot;../../../../../img/unitedapp.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;large-padding-bottom-16x medium-padding-bottom-12x small-padding-bottom-15x&quot;&gt;
 &lt;h3 class=&quot;large-padding-bottom-3x medium-padding-bottom-2x small-padding-bottom-3x&quot;&gt;Solution:&lt;/h3&gt;
 &lt;p class=&quot;large-padding-bottom-3x medium-padding-bottom-2x small-padding-bottom-3x&quot;&gt;Reduce frustration and friction in the boarding process by restructuring the United Airlines app content so important information is easy to access, by making the app more life-like in its interaction with the user, and by creating a push notification with easy access to boarding passes/directions.&lt;/p&gt;
+
+&lt;img src=&quot;../../../../../img/unitedapp-wireframes.png&quot; /&gt;
 
 &lt;ul&gt;
     &lt;li&gt;&lt;h3&gt;Restructuring Content&lt;/h3&gt;

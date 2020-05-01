@@ -738,6 +738,10 @@ img {
   display: inline-block;
   vertical-align: middle; }
 
+  img.fullwidth{
+    min-width:100%;
+  }
+
 textarea {
   height: auto;
   min-height: 50px;
@@ -19690,7 +19694,7 @@ a.pagination-item:hover {
   .pagination {
     padding: 0;
     margin: 0; } }
-/* 
+/*
  * Foundation Icons v 3.0
  * Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3
  * MIT License

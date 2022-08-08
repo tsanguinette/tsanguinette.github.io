@@ -1,0 +1,381 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<!--METADATA AND MAIN STYLE SHEET-->
+	<link href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+	<link href="../features.css" rel="stylesheet" type="text/css" />
+	<link href="../styles.css" rel="stylesheet" type="text/css" />
+	<link href="../jquery.reject.css" rel="stylesheet" type="text/css" />
+	<script type='text/javascript' src='//use.typekit.net/mta7lgn.js'></script>
+	<script type='text/javascript'>try{Typekit.load();}catch(e){}</script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-41914323-3', 'typequest.org');
+	  ga('require', 'linkid', 'linkid.js');
+	  ga('send', 'pageview');
+
+	</script>
+	<title>Type Quest | OpenType Features</title>
+	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+	<meta name='description' content='Type Quest is designed to help educate graphic designers and web designers understand the power of OpenType in Webfonts while giving insightful information from current professionals in the industry! The topics include what you should keep in mind when using webfonts, supported browsers, and hinting. Discover the power of OpenType Webfonts and learn the finer coding details to implement classic typographic details.'>
+	<meta name='keywords' content='webfonts,typography,ligatures,type on the web,hinting,characters,typefaces,fonts,typekit, font feature settings'>
+	<meta name='author' content='Tyler Sanguinette'>
+
+	<!--LIGATURES SLIDER-->
+    <link rel="stylesheet" type="text/css" media="screen" href="../coda-slider.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../js/jquery.easing.1.3.js"></script>
+    <script src="../js/jquery.coda-slider-3.0.min.js"></script>
+	<script src="../js/slider.js"></script>
+</head>
+
+<body>
+	<!--HEADER-->
+	<header>
+		<div id="smLogo"><a class="boxLogo" href="/"></a></div>
+		<div id="name">
+			<h1>OPENTYPE<br/>FEATURES</h1>
+		</div>
+		<nav class="light">
+			<ul>
+				<li><a href="../">Home</a></li>
+				<li><a href="../features/">OpenType features</a>
+					<ul class="opentype">
+						<li><a href="../features/#ligatures">Ligatures</a></li>
+						<li><a href="../features/#smallCaps">Small Caps</a></li>
+						<li><a href="../features/#numbers">Numbers</a></li>
+						<li><a href="../features/#frac">Fractions</a></li>
+						<li><a href="../features/#subs">Subscript</a></li>
+						<li><a href="../features/#sups">Superscript</a></li>
+						<li><a href="../features/#swsh">Swash</a></li>
+					</ul>
+				</li>
+				<li><a href="../articles/">Articles</a>
+					<ul class="articles">
+						<li><a href="../articles/leming/">Tal Leming</a></li>
+						<li><a href="../articles/eden/">Daniel Eden</a></li>
+						<li><a href="../articles/monotype/">Johnathan Zsittnik</a></li>
+						<li><a href="../articles/kalbag/">Laura Kalbag</a></li>
+						<li><a href="../articles/renicker/">Neil Renicker</a></li>
+						<li><a href="../articles/mickel/">Jeremy Mickel</a></li>
+						<li><a href="../articles/mcneil/">Patrick McNeil</a></li>
+						<li><a href="../articles/stoff/">Jason Stoff</a></li>
+						<li><a href="../articles/norman/">Marshall Norman</a></li>
+						<li><a href="../articles/roberts/">Kirk Roberts</a></li>
+					</ul>
+				</li>
+				<li><a href="../blog/">Blog</a></li>
+				<li><a href="../about/">About</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div id="main">
+		<div id="magic" class="content"><h2>Ligatures</h2></div>
+		<div id="ligatures">
+	    	<div class="coda-slider"  id="slider-id">
+
+	      <div>
+	        <h3 class="title">ct</h3>
+			<div id="center" class="one">
+	        	<div id="noactive"><h4>ct</h4></div>
+				<div id="active"><h5>ct</h5></div>
+			</div>
+	      </div>
+
+	      <div>
+	        <h3 class="title">ff</h3>
+			<div id="center" class="two">
+	        	<div id="noactive"><h4>ff</h4></div>
+				<div id="active"><h5>ff</h5></div>
+			</div>
+	      </div>
+
+	      <div>
+	        <h3 class="title">fi</h3>
+			<div id="center" class="three">
+	        	<div id="noactive"><h4>fi</h4></div>
+				<div id="active"><h5>fi</h5></div>
+			</div>
+	      </div>
+
+	      <div>
+	        <h3 class="title">st</h3>
+			<div id="center" class="four">
+	        	<div id="noactive"><h4>st</h4></div>
+				<div id="active"><h5>st</h5></div>
+			</div>
+	      </div>
+
+	    </div><!--END LIGATURES-->
+
+		<div id="content">
+			<p>The <span class="smcp">css</span> font-feature-settings property is a new and upcoming typographic feature that will allow for better typographic detail with web typography. The property essentially brings OpenType features such as small caps, ligatures, fractions, alternate sets and numbers to the web. Of course this is experimental at this point and is not a <span class="smcp">w3c</span> recommendation, although, it is</p>
+			<p>currently in the process of recommendation in the Editor&#8217;s Draft. Browser support is hit and miss so be aware of your choice in browser. Google Chrome seems to have the best support at this time closely followed by Mozilla Firefox. If you would like more technical information please visit the blog.</p>
+		</div>
+
+		<div id="magic">
+			<div id="links">
+				<ul>
+					<li><a href="http://ilovetypography.com/2007/09/09/decline-and-fall-of-the-ligature/">I Love Typography</a></li>
+					<li><a href="http://iloveligatures.tumblr.com/">You Love Ligatures</a></li>
+					<li><a href="http://practicaltypography.com/ligatures.html">Practical Typography</a></li>
+					<li><a href="http://opentype.info/blog/2012/11/20/whats-a-ligature/">Ralf Herrmann</a></li>
+				</ul>
+			</div>
+			<div id="code">
+				<pre><code>    -moz-font-feature-settings: "liga=1, dlig=1";
+    -ms-font-feature-settings: "liga", "dlig";
+    -webkit-font-feature-settings: "liga", "dlig";
+    -o-font-feature-settings: "liga", "dlig";
+    font-feature-settings: "liga", "dlig";</code></pre>
+			</div>
+		</div>
+	</div><!--END LIGATURES-->
+
+	<div id="frac">
+
+
+		<div id="magic">
+			<div id="">
+				<h2>Fractions</h2>
+				<button class="switch fracbutton">On/Off</button>
+				<p class="frac fracon">1/2 2/3 1/4 1/3 3/4 1/8 7/8</p>
+			</div>
+
+			<div id="links">
+				<ul>
+					<li><a href="http://www.fonts.com/content/learning/fyti/using-type-tools/opentype-fractions">Fonts.com</a></li>
+					<li><a href="http://ilovetypography.com/OpenType/opentype-features.html">I Love Typography</a></li>
+					<li><a href="http://www.microsoft.com/typography/otspec/features_fj.htm">Microsoft</a></li>
+				</ul>
+			</div>
+			<div id="code">
+				<pre><code>-moz-font-feature-settings:"frac" 1;
+-moz-font-feature-settings:"frac=1";
+-ms-font-feature-settings:"frac" 1;
+-o-font-feature-settings:"frac" 1;
+-webkit-font-feature-settings:"frac" 1;
+font-feature-settings:"frac" 1;</code>
+				</pre>
+			</div>
+		</div>
+	</div><!--END FRACTIONS-->
+
+	<!--NUMBERS-->
+	<div id="numbers">
+
+
+		<div id="magic">
+			<div id="">
+				<h2>Numbers</h2>
+				<button class="switch numbutton">On/Off</button>
+				<p class="numbers onumon">0123456789 <!--<span class="lining">0123456789</span>--></p>
+			</div>
+
+			<div id="links">
+				<ul>
+					<li><a href="http://www.fonts.com/content/learning/fontology/level-4/fine-typography/oldstyle-figures">Fonts.com</a></li>
+					<li><a href="http://opentype.info/blog/2010/08/14/better-web-typography-with-opentype-features/">Ralf Herrmann</a></li>
+					<li><a href="http://www.microsoft.com/typography/otspec/features_ko.htm">Microsoft</a></li>
+				</ul>
+			</div>
+			<div id="code" class="multiple">
+				<code><pre>-moz-font-feature-settings:"onum" 1;
+-moz-font-feature-settings:"onum=1";
+-ms-font-feature-settings:"onum" 1;
+-o-font-feature-settings:"onum" 1;
+-webkit-font-feature-settings:"onum" 1;
+font-feature-settings:"onum" 1;</pre>
+				</code>
+				<code><pre>-moz-font-feature-settings:"lnum" 1;
+-moz-font-feature-settings:"lnum=1";
+-ms-font-feature-settings:"lnum" 1;
+-o-font-feature-settings:"lnum" 1;
+-webkit-font-feature-settings:"lnum" 1;
+font-feature-settings:"lnum" 1;</pre>
+				</code>
+			</div>
+		</div>
+	</div><!--END NUMBERS-->
+
+	<!--SMALL CAPS-->
+	<div id="smallCaps">
+		<div id="magic">
+			<div id="">
+				<h2>Small Caps</h2>
+				<button class="switch smcpbutton">On/Off</button>
+				<p class="caps smcpon">real small caps</p>
+			</div>
+
+			<div id="links">
+				<ul>
+					<li><a href="http://www.thinkingwithtype.com/contents/letter/#Caps_and_Small_Caps">Thinking With Type</a></li>
+					<li><a href="http://ilovetypography.com/2008/02/20/small-caps/">I Love Typography</a></li>
+					<li><a href="http://typographyforlawyers.com/small-caps.html">Typography for Lawyers</a></li>
+					<li><a href="https://www.typotheque.com/fonts/small_caps_in_opentype">Typotheque</a></li>
+				</ul>
+			</div>
+			<div id="code">
+				<code>
+					<pre>-moz-font-feature-settings:"smcp" 1;
+-moz-font-feature-settings:"smcp=1";
+-ms-font-feature-settings:"smcp" 1;
+-o-font-feature-settings:"smcp" 1;
+-webkit-font-feature-settings:"smcp" 1;
+font-feature-settings:"smcp" 1;</pre>
+				</code>
+			</div>
+		</div>
+	</div><!--END SMALL CAPS-->
+
+	<!--SWASH-->
+	<div id="swash">
+		<div id="magic">
+			<div id="swsh">
+				<h2>Swash</h2>
+				<button class="switch swshbutton">On/Off</button>
+				<p class="swash">Touc<span class="swshon">h</span> th<span class="swshon">e</span> Swas<span class="swshon">h</span></p>
+			</div>
+
+			<div id="links">
+				<ul>
+					<li><a href="http://ilovetypography.com/2011/04/01/engaging-contextuality/">I Love Typography</a></li>
+					<li><a href="http://typofonderie.com/font-support/opentype-features/">Typofonderie</a></li>
+					<li><a href="http://msdn.microsoft.com/en-us/library/ms745109(v=vs.110).aspx">Microsoft Dev Network</a></li>
+				</ul>
+			</div>
+			<div id="code">
+				<code>
+					<pre>-moz-font-feature-settings:"swsh" 1;
+-moz-font-feature-settings:"swsh=1";
+-ms-font-feature-settings:"swsh" 1;
+-o-font-feature-settings:"swsh" 1;
+-webkit-font-feature-settings:"swsh" 1;
+font-feature-settings:"swsh" 1;</pre>
+				</code>
+			</div>
+		</div>
+	</div><!--END SWASH-->
+
+	<!--SUB-->
+	<div id="subscript">
+		<div id="magic">
+			<div id="subs">
+				<h2>Subscript</h2>
+				<button class="switch subsbutton">On/Off</button>
+				<p class="scripts">Mg(OH)<span class="subson">2</span> N<span class="subson">2</span>O + H<span class="subson">2</span>O</p>
+			</div>
+
+			<div id="links">
+				<ul>
+					<li><a href="http://www.howdesign.com/resources-education/production/expert-advice-on-opentype/">How Design</a></li>
+					<li><a href="http://helpme.webink.com/customer/portal/articles/346788-webink-fonts-with-opentype-features">WebINK</a></li>
+					<li><a href="http://msdn.microsoft.com/en-us/library/ms745109(v=vs.110).aspx">Microsoft Dev Network</a></li>
+				</ul>
+			</div>
+			<div id="code">
+				<code>
+					<pre>-moz-font-feature-settings:"subs" 1;
+-moz-font-feature-settings:"subs=1";
+-ms-font-feature-settings:"subs" 1;
+-o-font-feature-settings:"subs" 1;
+-webkit-font-feature-settings:"subs" 1;
+font-feature-settings:"subs" 1;</pre>
+				</code>
+			</div>
+		</div>
+	</div><!--END SUB-->
+
+	<!--SUP-->
+	<div id="superscript">
+		<div id="magic">
+			<div id="sups">
+				<h2>Superscript</h2>
+				<button class="switch supsbutton">On/Off</button>
+				<p class="scripts">Cu<span class="supson">2</span></p>
+			</div>
+
+			<div id="links">
+				<ul>
+					<li><a href="http://www.howdesign.com/resources-education/production/expert-advice-on-opentype/">How Design</a></li>
+					<li><a href="http://helpme.webink.com/customer/portal/articles/346788-webink-fonts-with-opentype-features">WebINK</a></li>
+					<li><a href="http://msdn.microsoft.com/en-us/library/ms745109(v=vs.110).aspx">Microsoft Dev Network</a></li>
+				</ul>
+			</div>
+			<div id="code">
+				<code>
+					<pre>-moz-font-feature-settings:"sups" 1;
+-moz-font-feature-settings:"sups=1";
+-ms-font-feature-settings:"sups" 1;
+-o-font-feature-settings:"sups" 1;
+-webkit-font-feature-settings:"sups" 1;
+font-feature-settings:"sups" 1;</pre>
+				</code>
+			</div>
+		</div>
+	</div><!--END SUB-->
+
+	</div><!--END MAIN-->
+
+	<!--FOLDER FOOTER-->
+	<footer class="articles">
+		<div class="wrapper">
+			<div class="list">
+				<ul>
+					<li><a href="../features/#ligatures">ligatures</a></li>
+					<li><a href="../blog/#legibility">optimize legibility</a></li>
+					<li><a href="../resources/fontsmoothing/">font smoothing</a></li>
+					<li><a href="../features/#numbers">old-style numerals</a></li>
+					<li><a href="../features/#numbers">lining numerals</a></li>
+					<li><a href="../features/#smallCaps">small caps</a></li>
+					<li><a href="../features/#frac">fractions</a></li>
+					<li><a href="../features/#subs">subscript</a></li>
+					<li><a href="../features/#sups">superscript</a></li>
+					<li><a href="../features/#swsh">swash</a></li>
+				</ul>
+			</div>
+
+			<div class="list">
+				<ul>
+					<li><a href="../articles/leming/">Tal Leming</a></li>
+					<li><a href="../articles/eden/">Daniel Eden</a></li>
+					<li><a href="../articles/monotype/">Monotype</a></li>
+					<li><a href="../articles/kalbag/">Laura Kalbag</a></li>
+					<li><a href="../articles/mcneil/">Patrick McNeil</a></li>
+					<li><a href="../articles/renicker/">Neil Renicker</a></li>
+					<li><a href="../articles/mickel/">Jeremy Mickel</a></li>
+					<li><a href="../articles/stoff/">Jason Stoff</a></li>
+					<li><a href="../articles/norman/">Marshall Norman</a></li>
+					<li><a href="../articles/roberts/">Kirk Roberts</a></li>
+				</ul>
+			</div>
+
+			<div class="list">
+				<ul>
+					<li><a href="http://www.webink.com/">WebINK</a></li>
+					<li><a href="http://www.webtype.com/">Webtype</a></li>
+					<li><a href="https://www.fontfont.com/">FontFont</a></li>
+					<li><a href="http://www.fonts.com/">Monotype</a></li>
+					<li><a href="http://processtypefoundry.com/">Process Type Foundry</a></li>
+					<li><a href="https://typekit.com/">Typekit</a></li>
+					<li><a href="http://fontdeck.com/">FontDeck</a></li>
+					<li><a href="http://www.typography.com/">Hoefler & Frere-Jones</a></li>
+				</ul>
+			</div>
+
+			<div class="list info">
+				<p>Copyright &copy; 2014 <a href="http://tylersanguinette.com/">Tyler Sanguinette</a></p>
+				<p>Webfonts used on this website include Effra by <a href="http://www.daltonmaag.com/">Dalton Maag</a> and Adobe Caslon Pro by <a href="http://www.adobe.com/products/type.html">Adobe</a> hosted on <a href="http://typekit.com/">Typekit.</a></p>
+			</div>
+		</div><!--END WRAPPER-->
+	</footer>
+
+	<!--ON/OFF BUTTON-->
+	<script src="../js/switch.js"></script>
+</body>
+</html>

@@ -1,0 +1,228 @@
+/*==GREEN #6CE867;==*/
+
+#name{
+	width:455px;
+	margin:0 auto;
+	padding-top:203px;
+}
+
+#name h1{
+	color:#6CE867;
+	font-size:107px;
+	line-height:85px;
+}
+
+/*==HEADER==*/
+header{
+	height:500px;
+	background-color:#3d3d3d;
+	background-image:url('images/new2.jpg');
+	background-position:0;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#proimg{
+	width:px;
+	margin:0 auto;
+}
+
+#title p{
+	text-align:center;
+	font-size:px;
+	line-height:px;
+	width:540px;
+	margin:0 auto;
+}
+
+h2.color{
+	color:#3d3d3d;
+}
+
+#main.eden{
+	height:1180px;
+	background-color:white;
+}
+
+#main.kalbag{
+	height:1448px;
+}
+
+#main.leming{
+	height:1644px;
+}
+
+#main.mickel{
+	height:1400px;
+}
+
+#main.stoff{
+	height:1469px;
+}
+
+#main.mcneil{
+	height:853px;
+}
+
+#main.monotype{
+	height:1157px;
+}
+
+#main.norman{
+	height:1009px;
+}
+
+#main.roberts{
+	height:986px;
+}
+
+#main.renicker{
+	height:1262px;
+}
+
+#main.yates{
+	height:971px;
+}
+
+#main{
+	height:1355px;
+	background-color:white;
+}
+
+.proimg{
+	padding-top:77px;
+	width:790px;
+	margin:0 auto;
+}
+
+#content{
+	width:860px;
+	margin:0 auto;
+	padding-top:30px;
+}
+
+#information{
+	width:980px;
+	margin:0 auto;
+	padding-top:200px;
+}
+
+#information p{
+	color:white;
+}
+
+#information a{
+	color:white;
+	text-decoration:none;
+	font-style:italic;
+	font-size:13px;
+}
+
+#information a:hover{
+	color:#6CE867;
+}
+
+#first{
+	width:860px;
+}
+
+.picture{
+	float:left;
+}
+
+.smallinfo{
+	max-width:380px;
+	min-width:200px;
+	padding-left:20px;
+}
+
+.smallinfo a{
+	text-decoration:none;
+	color:#3d3d3d;
+}
+
+.smallinfo a:hover{
+	color:#6CE867;
+}
+
+.caption{
+	float:left;
+	width:220px;
+	clear:both;
+	text-align:right;
+}
+
+.caption ul li{
+	list-style-type:none;
+}
+
+.caption ul li a{
+	text-decoration:none;
+	color:#3d3d3d;
+	line-height:22px;
+	font-family: "adobe-caslon-pro";
+	font-weight: 400;
+	font-style: normal;
+	-moz-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1; 
+	-moz-font-feature-settings:"onum=1, liga=1, dlig=1"; 
+	-ms-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1; 
+	-o-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1; 
+	-webkit-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1; 
+	font-feature-settings:"onum" 1, "liga" 1, "dlig" 1;
+}
+
+.caption ul li a:hover{
+	color:#6CE867;
+}
+
+.paragraph{
+	max-width:620px;
+	min-width:420px;
+	float:left;
+	background-color:white;
+	position: relative;
+	top:-37px;
+	padding-left:20px;
+}
+
+span.sans{
+	font-family: "effra",sans-serif;
+	font-weight: 700;
+	color:#3d3d3d;
+}
+
+#bio{
+	position:;
+	padding-top:30px;
+}
+
+#isotope{
+	width:974px;
+	margin:0 auto;
+	font-family: "effra",sans-serif;
+	font-weight: 300;
+}
+
+footer.articles{
+	padding-top:50px;
+	height:225px;
+	width:100%;
+	background-color:#3d3d3d;
+}
+
+footer ul li a{
+	color:white;
+}
+
+footer ul li a:hover{
+	color:#6CE867;
+}
+
+.info p{
+	color:white;
+}
+
+.list.info a{
+	text-decoration:none;
+	color:white;
+}

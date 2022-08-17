@@ -1991,10 +1991,11 @@ kbd {
     margin-right: 0; }
   .button.primary {
     background-color: #cb5f40;
-    color: #0a0a0a;}
+    color: #fff;
+    border-radius: 20px;}
     .button.primary:hover, .button.primary:focus {
-      background-color: #147cc0;
-      color: #0a0a0a; }
+      background: rgba(203, 95, 64, 0.3);
+      transition: all 400ms ease-in-out; }
   .button.secondary {
     background-color: #777;
     color: #fff; }

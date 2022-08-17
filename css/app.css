@@ -1994,7 +1994,7 @@ kbd {
     color: #fff;
     border-radius: 20px !important;}
     .button.primary:hover, .button.primary:focus {
-      background: rgba(203, 95, 64, 0.3);
+      background: rgba(203, 95, 64, 0.9);
       transition: all 400ms ease-in-out; }
   .button.secondary {
     background-color: #777;

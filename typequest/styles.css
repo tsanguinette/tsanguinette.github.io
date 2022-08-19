@@ -24,11 +24,11 @@ body{
 }
 
 .smcp{
-	-moz-font-feature-settings:"smcp" 1; 
-	-moz-font-feature-settings:"smcp=1"; 
-	-ms-font-feature-settings:"smcp" 1; 
-	-o-font-feature-settings:"smcp" 1; 
-	-webkit-font-feature-settings:"smcp" 1; 
+	-moz-font-feature-settings:"smcp" 1;
+	-moz-font-feature-settings:"smcp=1";
+	-ms-font-feature-settings:"smcp" 1;
+	-o-font-feature-settings:"smcp" 1;
+	-webkit-font-feature-settings:"smcp" 1;
 	font-feature-settings:"smcp" 1;
 }
 
@@ -139,11 +139,11 @@ p{
 	font-family: "adobe-caslon-pro";
 	font-weight: 400;
 	font-style: normal;
-	-moz-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1; 
-	-moz-font-feature-settings:"onum=1, liga=1, dlig=1"; 
-	-ms-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1; 
-	-o-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1; 
-	-webkit-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1; 
+	-moz-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1;
+	-moz-font-feature-settings:"onum=1, liga=1, dlig=1";
+	-ms-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1;
+	-o-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1;
+	-webkit-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1;
 	font-feature-settings:"onum" 1, "liga" 1, "dlig" 1;
 }
 
@@ -151,11 +151,11 @@ p{
 	font-family: "adobe-caslon-pro";
 	font-weight: 400;
 	font-style: normal;
-	-moz-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1; 
-	-moz-font-feature-settings:"onum=1, liga=1, dlig=1"; 
-	-ms-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1; 
-	-o-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1; 
-	-webkit-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1; 
+	-moz-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1;
+	-moz-font-feature-settings:"onum=1, liga=1, dlig=1";
+	-ms-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1;
+	-o-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1;
+	-webkit-font-feature-settings:"onum" 1, "liga" 1, "dlig" 1;
 	font-feature-settings:"onum" 1, "liga" 1, "dlig" 1;
 }
 
@@ -376,11 +376,11 @@ header.straight{
 	text-align:center;
 	font-style: normal;
 	padding-top:37px;
-	-moz-font-feature-settings:"dlig" 1, "hlig" 1, "hist" 1, "salt" 1, "ss01" 1, "ss02" 1, "ss03" 1; 
-	-moz-font-feature-settings:"dlig=1, hlig=1, hist=1, salt=1, ss01=1, ss02=1, ss03=1"; 
-	-ms-font-feature-settings:"dlig" 1, "hlig" 1, "hist" 1, "salt" 1, "ss01" 1, "ss02" 1, "ss03" 1; 
-	-o-font-feature-settings:"dlig" 1, "hlig" 1, "hist" 1, "salt" 1, "ss01" 1, "ss02" 1, "ss03" 1; 
-	-webkit-font-feature-settings:"dlig" 1, "hlig" 1, "hist" 1, "salt" 1, "ss01" 1, "ss02" 1, "ss03" 1; 
+	-moz-font-feature-settings:"dlig" 1, "hlig" 1, "hist" 1, "salt" 1, "ss01" 1, "ss02" 1, "ss03" 1;
+	-moz-font-feature-settings:"dlig=1, hlig=1, hist=1, salt=1, ss01=1, ss02=1, ss03=1";
+	-ms-font-feature-settings:"dlig" 1, "hlig" 1, "hist" 1, "salt" 1, "ss01" 1, "ss02" 1, "ss03" 1;
+	-o-font-feature-settings:"dlig" 1, "hlig" 1, "hist" 1, "salt" 1, "ss01" 1, "ss02" 1, "ss03" 1;
+	-webkit-font-feature-settings:"dlig" 1, "hlig" 1, "hist" 1, "salt" 1, "ss01" 1, "ss02" 1, "ss03" 1;
 	font-feature-settings:"dlig" 1, "hlig" 1, "hist" 1, "salt" 1, "ss01" 1, "ss02" 1, "ss03" 1;
 }
 
@@ -390,8 +390,6 @@ header.straight{
 }
 
 #main{
-	height:870px;
-	background-color:#3d3d3d;
 	position:relative;
 }
 
@@ -720,7 +718,7 @@ header.about{
       text-align:center;
    opacity:0;
    -webkit-transition: opacity .25s ease;}
-   
+
 #overlay h2{
 	padding-top:175px;
 }

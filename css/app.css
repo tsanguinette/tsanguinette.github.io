@@ -19502,7 +19502,7 @@ a.pagination-item:hover {
   .curtain {
     height: 705px; }
     .curtain h1 {
-      max-width: 870px;
+      max-width: 1040px;
       margin: 0 auto; }
 
   .desktop-row {
@@ -19517,7 +19517,7 @@ a.pagination-item:hover {
 
   .curtain h1 {
     margin: 0 auto;
-    width: 650px; } }
+    width: 820px; } }
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   .wrapper {
     margin: 0 16px; }
@@ -19531,7 +19531,7 @@ a.pagination-item:hover {
     max-width: none; }
 
   .curtain h1 {
-    max-width: 870px;
+    max-width: 760px;
     margin: 0 auto; }
 
   .menu-button-tap {
@@ -19667,7 +19667,7 @@ a.pagination-item:hover {
     width: 30px; }
 
   .curtain h1 {
-    max-width: 330px;
+    max-width: 760px;
     margin: 0 auto; }
 
   h1 {
